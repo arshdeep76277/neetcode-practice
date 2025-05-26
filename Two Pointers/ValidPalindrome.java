@@ -11,10 +11,9 @@ import java.util.Set;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.lang.Math;
 
-
 // Problem Link - https://leetcode.com/problems/valid-palindrome/
 
-class Solution {
+class ValidPalindrome {
 
     public static String getAlphabets(String s) {
         StringBuilder res = new StringBuilder();
