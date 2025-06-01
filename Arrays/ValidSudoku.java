@@ -11,7 +11,7 @@ import java.util.Set;
 
 // Imports not needed when submitting challenges
 
-class Solution {
+class ValidSudoku {
 
     public static void initializeMap(Map<Integer,Set<Character>> mp,int key){
         mp.put(key, new HashSet<>());
